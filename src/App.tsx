@@ -1,7 +1,14 @@
-import React from 'react';
+import React from 'react'
+import About from './components/About'
+import SCMedia from './components/SCMedia'
 
 const App = () => {
-  return <div className='text-center font-bold underline'>Let's Make it</div>;
-};
+  return (
+    <>
+      <About />
+      <SCMedia />
+    </>
+  )
+}
 
-export default App;
+export default App
