@@ -22,8 +22,8 @@ const Tech: React.FC = () => {
         , I translate ideas into seamless, high-performance applications,
         delivering unparalleled value to clients and users alike.
       </p>
-      <img src='//public/MongoDB.png' alt='MongoDB' />
-      <img src='//public/Nodejs.png' alt='Nodejs' />
+      <img height='200' width='200' src='/MongoDB.png' alt='MongoDB' />
+      <img height='200' width='200' src='/Nodejs.png' alt='Nodejs' />
     </div>
   )
 }
