@@ -1,4 +1,6 @@
 import React from 'react'
+import Node from '../images/Nodejs.png'
+import Mongo from '../images/MongoDB.png'
 
 const Tech: React.FC = () => {
   return (
@@ -22,8 +24,10 @@ const Tech: React.FC = () => {
         , I translate ideas into seamless, high-performance applications,
         delivering unparalleled value to clients and users alike.
       </p>
-      <img height='200' width='200' src='/MongoDB.png' alt='MongoDB' />
-      <img height='200' width='200' src='/Nodejs.png' alt='Nodejs' />
+      <div className='flex gap-x-12'>
+        <img height='200' width='200' src={Mongo} alt='MongoDB' />
+        <img height='200' width='200' src={Node} alt='Nodejs' />
+      </div>
     </div>
   )
 }
