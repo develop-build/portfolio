@@ -17,7 +17,6 @@ function SocialIcons({ icon }: SocialIconsProps) {
   return (
     <div className='flex items-center justify-center '>
       <div className='flex items-center justify-center h-10 w-10 bg-gray-800 rounded-full'>
-        {/* <a href={url} target="_blank" rel="noopener noreferrer"> */}
         <FontAwesomeIcon
           icon={icon}
           className='text-white text-lg h-6 w-6 cursor-pointer'
@@ -30,7 +29,7 @@ function SocialIcons({ icon }: SocialIconsProps) {
 const SCMedia: React.FC = () => {
   return (
     <>
-      <div className='flex gap-x-10 justify-center'>
+      <div className='flex gap-x-10 justify-center m-2'>
         <SocialIcons
           icon={faLinkedin}
           url='https://www.linkedin.com/in/dpkk1/'

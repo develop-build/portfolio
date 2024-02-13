@@ -1,19 +1,11 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import About from './components/About'
-import SCMedia from './components/SCMedia'
-import Tech from './components/Tech'
+import All from './components/All'
 
 const App = () => {
   return (
-    <>
-      <div className='bg-slate-200'>
-        <Navbar />
-        <About />
-        <SCMedia />
-        <Tech />
-      </div>
-    </>
+    <div>
+      <All />
+    </div>
   )
 }
 
