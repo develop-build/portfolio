@@ -1,7 +1,12 @@
-import React from 'react';
+import React from 'react'
+import All from './components/All'
 
 const App = () => {
-  return <div className='text-center font-bold underline'>Let's Make it</div>;
-};
+  return (
+    <div>
+      <All />
+    </div>
+  )
+}
 
-export default App;
+export default App
