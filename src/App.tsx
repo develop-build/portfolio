@@ -1,7 +1,8 @@
 import React from 'react';
+import Navbar from './Navbar/Navbar';
 
 const App = () => {
-  return <div className='text-center font-bold underline'>Let's Make it</div>;
+  return <Navbar />;
 };
 
 export default App;
